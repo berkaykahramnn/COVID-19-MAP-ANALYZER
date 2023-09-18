@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Period"
+                android:textStyle="bold"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:text="Cases"
+                android:textStyle="bold"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Mar20"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/mar20_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Apr20"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/apr20_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="May20"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/may20_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Jun20"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/jun20_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Jul20"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/jul20_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Aug20"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/aug20_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Sep20"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/sep20_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Oct20"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/oct20_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Nov20"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/nov20_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Dec20"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/dec20_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Jan21"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/jan21_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Feb21"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/feb21_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Mar21"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/mar21_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Apr21"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/apr21_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="May21"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/may21_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Jun21"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/jun21_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Jul21"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/jul21_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Aug21"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/aug21_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Sep21"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/sep21_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Oct21"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/oct21_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Nov21"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/nov21_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Dec21"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/dec21_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Jan22"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/jan22_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Feb22"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/feb22_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Mar22"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/mar22_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Apr22"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/apr22_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="May22"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/may22_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Jun22"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/jun22_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Jul22"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/jul22_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Aug22"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/aug22_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Sep22"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/sep22_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="Oct22"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
+                android:id="@+id/oct22_cases_view"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:gravity="center_vertical|end"
+                android:layout_gravity="center_vertical" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

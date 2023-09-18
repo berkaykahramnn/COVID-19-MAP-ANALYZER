@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.basicactivity.MainActivity">
+
+    <item android:id="@+id/action_mar20" android:title="Mar 20" app:showAsAction="never" />
+    <item android:id="@+id/action_apr20" android:title="Apr 20" app:showAsAction="never" />
+    <item android:id="@+id/action_may20" android:title="May 20" app:showAsAction="never" />
+    <item android:id="@+id/action_jun20" android:title="Jun 20" app:showAsAction="never" />
+    <item android:id="@+id/action_jul20" android:title="Jul 20" app:showAsAction="never" />
+    <item android:id="@+id/action_aug20" android:title="Aug 20" app:showAsAction="never" />
+    <item android:id="@+id/action_sep20" android:title="Sep 20" app:showAsAction="never" />
+    <item android:id="@+id/action_oct20" android:title="Oct 20" app:showAsAction="never" />
+    <item android:id="@+id/action_nov20" android:title="Nov 20" app:showAsAction="never" />
+    <item android:id="@+id/action_dec20" android:title="Dec 20" app:showAsAction="never" />
+    <item android:id="@+id/action_jan21" android:title="Jan 21" app:showAsAction="never" />
+    <item android:id="@+id/action_feb21" android:title="Feb 21" app:showAsAction="never" />
+    <item android:id="@+id/action_mar21" android:title="Mar 21" app:showAsAction="never" />
+    <item android:id="@+id/action_apr21" android:title="Apr 21" app:showAsAction="never" />
+    <item android:id="@+id/action_may21" android:title="May 21" app:showAsAction="never" />
+    <item android:id="@+id/action_jun21" android:title="Jun 21" app:showAsAction="never" />
+    <item android:id="@+id/action_jul21" android:title="Jul 21" app:showAsAction="never" />
+    <item android:id="@+id/action_aug21" android:title="Aug 21" app:showAsAction="never" />
+    <item android:id="@+id/action_sep21" android:title="Sep 21" app:showAsAction="never" />
+    <item android:id="@+id/action_oct21" android:title="Oct 21" app:showAsAction="never" />
+    <item android:id="@+id/action_nov21" android:title="Nov 21" app:showAsAction="never" />
+    <item android:id="@+id/action_dec21" android:title="Dec 21" app:showAsAction="never" />
+    <item android:id="@+id/action_jan22" android:title="Jan 22" app:showAsAction="never" />
+    <item android:id="@+id/action_feb22" android:title="Feb 22" app:showAsAction="never" />
+    <item android:id="@+id/action_mar22" android:title="Mar 22" app:showAsAction="never" />
+    <item android:id="@+id/action_apr22" android:title="Apr 22" app:showAsAction="never" />
+    <item android:id="@+id/action_may22" android:title="May 22" app:showAsAction="never" />
+    <item android:id="@+id/action_jun22" android:title="Jun 22" app:showAsAction="never" />
+    <item android:id="@+id/action_jul22" android:title="Jul 22" app:showAsAction="never" />
+    <item android:id="@+id/action_aug22" android:title="Aug 22" app:showAsAction="never" />
+    <item android:id="@+id/action_sep22" android:title="Sep 22" app:showAsAction="never" />
+    <item android:id="@+id/action_oct22" android:title="Oct 22" app:showAsAction="never" />
+</menu>
